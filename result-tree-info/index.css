@@ -1,0 +1,107 @@
+.result-tree-info {
+    width:380px;
+    height:230px;
+
+    background:#4f2777;
+    color:#fff;
+}
+
+.result-tree-info .tree-img {
+    margin: -130px auto 0;
+    height:220px;
+}
+.result-tree-info .tree-img > div {
+    width:100%;
+    height:100%;
+
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.result-tree-info .tree-img0 {
+    background-image: url(../../../assets/img/disciplineTree/tree1.png);
+}
+.result-tree-info .tree-img1 {
+    background-image: url(../../../assets/img/disciplineTree/tree2.png);
+}
+.result-tree-info .tree-img2 {
+    background-image: url(../../../assets/img/disciplineTree/tree3.png);
+}
+.result-tree-info .tree-img3 {
+    background-image: url(../../../assets/img/disciplineTree/tree4.png);
+}
+.result-tree-info .tree-img4 {
+    background-image: url(../../../assets/img/disciplineTree/tree5.png);
+}
+.result-tree-info .tree-img5 {
+    background-image: url(../../../assets/img/disciplineTree/tree6.png);
+}    
+.result-tree-info .tree-status {
+    margin:10px auto 0;
+    width:220px;
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+    position:relative;
+}
+.result-tree-info .tree-status .tree-status-item{
+    width:30px;
+    height:30px;
+    margin-right:10px;
+}
+.result-tree-info .tree-status .tree-status-item:last-child{
+    margin-right:0;
+}
+.result-tree-info .tree-status .tree-status-item img{
+    width: 100%;
+    height:100%;
+}
+
+.result-tree-info .tree-status .tree-status-select-circle {
+    position:absolute;
+    left:175px;
+    top:-6px;
+
+    border:3px solid #fff;
+    border-radius:50%;
+    width:40px;
+    height:40px;
+    animation: heart-beat 1s ease-in-out alternate infinite;
+}
+.result-tree-info .tree-status .tree-status-select-circle.circle0{
+    left:-10px;
+}
+.result-tree-info .tree-status .tree-status-select-circle.circle1{
+    left: 28px;
+}
+.result-tree-info .tree-status .tree-status-select-circle.circle2{
+    left: 66px;
+}
+.result-tree-info .tree-status .tree-status-select-circle.circle3{
+    left: 104px;
+}
+.result-tree-info .tree-status .tree-status-select-circle.circle4{
+    left: 142px;
+}
+.result-tree-info .tree-status .tree-status-select-circle.circle5{
+    left: 180px;
+}
+
+.result-tree-info .tree-msg{
+    margin-top:20px;
+    padding:0 30px;
+
+    line-height:30px;
+    font-size:20px;
+    text-align:center;
+} 
+
+@keyframes heart-beat {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.15);
+    }
+}
